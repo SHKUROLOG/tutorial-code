@@ -4,7 +4,7 @@ from checker import check_logged_in
 app = Flask(__name__)
 
 
-app.secret_key = 'YouWillNeverGuess'
+app.secret_key = '***'
 
 
 @app.route('/')
