@@ -1,7 +1,7 @@
 from flask import Flask, session
 
 app = Flask(__name__)
-app.secret_key = 'YouWillNeverGuess'
+app.secret_key = '***'
 
 
 @app.route('/setuser/<user>')
